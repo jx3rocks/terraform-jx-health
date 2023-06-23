@@ -19,7 +19,7 @@ variable "jx_bot_token" {
 variable "jx_kh_check_version" {
   description = "The helm version of the jx-kh-check chart"
   type        = string
-  default     = "0.0.78"
+  default     = "0.0.80"
 }
 
 variable "kuberhealthy_terraform_drift_check_version" {
